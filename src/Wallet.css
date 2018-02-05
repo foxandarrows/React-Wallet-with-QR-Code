@@ -1,0 +1,112 @@
+/** 
+Colors
+-> dark grey : #ededed
+-> light grey : #f7f7f7
+-> white : #ffffff
+
+-> blue - grey : #73879b
+-> turquoise : #2aba9d
+
+-> Gold : #cdb66c
+**/
+
+
+body{
+  /* background-image : url('./img/bg-rectangle-white-200x200.png'); */
+  background-repeat : repeat;
+  /* background-color: #1e324a; */
+  background-color: #ededed;
+  height: 1000px;
+}
+
+div.container{
+  margin-top : 2em;
+}
+
+div#presentation{
+  text-transform : uppercase;
+  color: black;
+}
+
+/* div.bg-picture{
+  background-image : url('./img/bg-rectangle-white-60x60.png');
+} */
+
+div#title-wallet{
+  background-color: #f7f7f7;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  /* box-shadow: 5px 5px 20px 0px grey; */
+  /* https://css-tricks.com/snippets/css/css-box-shadow/ */
+  box-shadow: 0 0 3px #ccc;
+}
+
+div#title-wallet h3{
+  text-transform: uppercase;
+  color: #73879b;
+  display : inline-block;
+  font-size: 1.15em;
+}
+
+div#wallet{
+  background-color: #ffffff;
+  padding: 1em;
+  box-shadow: 0 3px 3px #ccc;
+}
+
+img#icon-ethereum{
+  width: 1.2em;
+  margin-right: 1.15em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: -0.5em;
+  display : inline-block;
+}
+
+span#name-currency{
+  font-family: "Helvetica";
+  text-transform : uppercase;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+div#total-balance{
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+
+div#total-balance h3{
+  margin-top: 0em;
+  color: #2aba9d;
+}
+
+p#title-total-balance {
+  margin-top: 2em;
+  font-size: 0.75em;
+  text-transform : uppercase;
+}
+
+button#deposit{
+  background-color: #73879b;
+  border-color : #73879b;
+  color : white;
+  font-size : 1.15em;
+  text-transform: uppercase;
+}
+
+/** Toogle the QRcode **/
+.hide-true  {
+  display: none;
+}
+
+div#footer-wallet{
+  background-color: #f7f7f7;
+  color: grey;
+  padding: 1em;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+
+  box-shadow: 0 3px 3px #ccc;
+}
+
+

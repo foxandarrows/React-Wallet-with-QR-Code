@@ -1,0 +1,25 @@
+input#copy-value{
+    border-bottom: 0px solid white;
+    margin: 0;
+    margin-top: -0.65em;
+}
+
+span#copy-deposit a{
+    color : #2aba9d;
+}
+
+button{
+    border-radius : 5px;
+    border-color: #73879b;
+}
+
+button:focus {
+    background-color: #2aba9d;
+    color : white;
+}
+
+button:active {
+    background-color: #ededed;
+}
+
+
