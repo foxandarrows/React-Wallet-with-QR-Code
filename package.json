@@ -1,7 +1,7 @@
 {
   "name": "wallet-with-qr-code",
   "version": "0.1.0",
-  "homepage": "https://foxandarrows.github.io/React-Wallet-with-QR-Code/",
+  "homepage": "https://foxandarrows.github.io/react-wallet-with-qr-code/",
   "private": true,
   "dependencies": {
     "materialize-css": "^0.100.2",
@@ -12,8 +12,9 @@
     "react-scripts": "^1.0.17"
   },
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
